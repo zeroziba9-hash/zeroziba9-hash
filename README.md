@@ -42,5 +42,11 @@
 - 자동화 스크립트 & 실험용 프로젝트
 - 학습 기록용 저장소 (TIL / Algorithm)
 
+## 🧪 Simple Projects
+- [Finance](https://github.com/zeroziba9-hash/Finance) — Java 기반 토이 프로젝트
+- [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring) — Spring 서버 실습 프로젝트
+- [message-test](https://github.com/zeroziba9-hash/message-test) — 메시지 처리 테스트 프로젝트
+- [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot) — Discord 주사위 봇 프로젝트
+
 ## 📫 Contact
 - **Email**: zeroziba9@gmail.com
