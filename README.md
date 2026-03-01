@@ -1,22 +1,21 @@
-<h1 align="center">안녕하세요, Zeroziba입니다 👋</h1>
+<h1 align="center">안녕하세요, Zeroziba입니다.</h1>
 
 <p align="center">
-  <b>Backend Developer in progress 🚀</b><br/>
-  Building clean and practical services, one commit at a time.<br/>
-  오늘도 작은 기능 하나라도 제대로 끝내는 개발자입니다 😎
+  <b>Backend Developer (Learning by Building)</b><br/>
+  코드에 부딪히고, 로그를 읽고, 다시 고치면서 성장 중입니다.
 </p>
 
 <p align="center">
-  <a href="mailto:zeroziba9@gmail.com">📧 Email</a> ·
-  <a href="https://github.com/zeroziba9-hash">🐙 GitHub</a>
+  <a href="mailto:zeroziba9@gmail.com">Email</a> ·
+  <a href="https://github.com/zeroziba9-hash">GitHub</a>
 </p>
 
 ---
 
 ## 🧑‍💻 About Me
-- Java / Spring 기반 백엔드를 공부하고 있습니다.
-- "일단 돌아가게"보다 **"읽기 좋고 고치기 쉽게"**를 더 좋아합니다.
-- Small project? Yes. Small effort? No. 
+- Java / Spring 기반 백엔드 개발을 중심으로 학습하고 있습니다.
+- 기능 구현뿐 아니라 **코드 구조, 예외 처리, 유지보수성**을 중요하게 생각합니다.
+- 모르는 건 문서/로그/실험으로 확인하고, 이해한 내용은 기록으로 남깁니다.
 
 ## 🛠 Tech Stack
 <p>
@@ -31,27 +30,25 @@
 
 ## 🚀 Projects
 - [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)  
-  Spring Boot로 REST API 흐름을 익힌 서버 프로젝트 — "백엔드는 구조가 반이다"를 체감 중.
+  Spring Boot 기반 서버 실습 프로젝트 (REST API 구조와 흐름 학습)
 
 - [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot)  
-  명령 처리 + 응답 로직 구현한 Discord bot 프로젝트. 가볍지만 로직은 진지하게.
+  명령 처리 및 응답 로직을 구현한 Discord 봇 프로젝트
 
 - [message-test](https://github.com/zeroziba9-hash/message-test)  
-  메시지 처리/검증 로직 테스트 프로젝트. 실패 로그에서 배우는 편입니다 😅
+  메시지 처리/검증 로직을 테스트한 실험용 프로젝트
 
 - [Finance](https://github.com/zeroziba9-hash/Finance)  
-  Java로 만든 간단한 계산기 프로젝트. 기본기 다지기용 미니 프로젝트입니다.
+  Java로 만든 간단한 계산기 프로젝트 (기초 로직 구현)
 
 ## 📚 Currently Learning
-- AWS (EC2, S3, RDS): "배포 가능한 백엔드"를 목표로 학습 중
-- MySQL DB/query 관리: 인덱스, 쿼리 튜닝, 백업 루틴 익히는 중
-- Better API design & exception handling patterns
+- AWS 배포 기본 흐름 정리 (EC2, S3, RDS)
+- MySQL 쿼리 성능 개선 (인덱스, 실행 계획, 튜닝)
+- 예외 처리/검증/로깅을 포함한 안정적인 API 설계
+
+## 🧾 Study Notes
+- 구현 과정에서 막힌 지점과 해결 과정을 기록합니다.
+- "왜 이렇게 동작하는지"를 이해하려고 공식 문서 기준으로 확인합니다.
 
 ## 📫 Contact
 - Email: **zeroziba9@gmail.com**
-
----
-
-<p align="center">
-  <i>꾸준함이 재능을 이긴다고 믿습니다. Consistency beats talent.</i>
-</p>
