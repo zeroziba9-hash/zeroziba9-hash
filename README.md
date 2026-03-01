@@ -38,15 +38,15 @@
 - MySQL DB 쿼리/운영 관리 최적화 (인덱스, 쿼리 튜닝, 백업)
 
 ## 📌 Featured Projects
-- 실무형 백엔드 토이프로젝트
-- 자동화 스크립트 & 실험용 프로젝트
-- 학습 기록용 저장소 (TIL / Algorithm)
+- 실전 흐름을 반영한 **백엔드 API 프로젝트** (설계 → 구현 → 테스트)
+- 반복 업무를 줄이는 **자동화 스크립트 프로젝트**
+- 문제 해결 과정을 기록한 **TIL / 알고리즘 학습 저장소**
 
-## 🧪 Simple Projects
-- [Finance](https://github.com/zeroziba9-hash/Finance) — Java 기반 토이 프로젝트
-- [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring) — Spring 서버 실습 프로젝트
-- [message-test](https://github.com/zeroziba9-hash/message-test) — 메시지 처리 테스트 프로젝트
-- [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot) — Discord 주사위 봇 프로젝트
+## 🧪 Simple Projects (Built by Me)
+- [Finance](https://github.com/zeroziba9-hash/Finance) — Java 기반으로 핵심 금융 로직을 구현한 미니 프로젝트
+- [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring) — Spring Boot로 REST API 구조/흐름을 연습한 서버 프로젝트
+- [message-test](https://github.com/zeroziba9-hash/message-test) — 메시지 처리/검증 로직을 실험한 테스트 프로젝트
+- [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot) — 명령 처리와 응답 흐름을 구현한 Discord 봇 프로젝트
 
 ## 📫 Contact
 - **Email**: zeroziba9@gmail.com
