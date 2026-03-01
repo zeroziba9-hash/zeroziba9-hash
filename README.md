@@ -30,10 +30,12 @@
 
 ## 🚀 Current Focus
 - Spring Boot 기반 REST API 고도화
-- AWS 기초부터 실전 배포까지 학습 (EC2, S3, RDS)
-- MySQL DB 설계 및 운영 관리 최적화 (인덱스, 쿼리 튜닝, 백업)
 - 재사용 가능한 프로젝트 구조 만들기
 - 배포/운영 경험 쌓기 (CI/CD, monitoring)
+
+## 📚 Currently Learning
+- AWS 기초부터 실전 배포까지 학습 (EC2, S3, RDS)
+- MySQL DB 쿼리/운영 관리 최적화 (인덱스, 쿼리 튜닝, 백업)
 
 ## 📌 Featured Projects
 - 실무형 백엔드 토이프로젝트
