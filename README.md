@@ -43,7 +43,7 @@
 - 문제 해결 과정을 기록한 **TIL / 알고리즘 학습 저장소**
 
 ## 🧪 Simple Projects (Built by Me)
-- [Finance](https://github.com/zeroziba9-hash/Finance) — Java 기반으로 핵심 금융 로직을 구현한 미니 프로젝트
+- [Finance](https://github.com/zeroziba9-hash/Finance) — Java로 만든 간단한 계산기 프로젝트 (기초 로직 구현)
 - [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring) — Spring Boot로 REST API 구조/흐름을 연습한 서버 프로젝트
 - [message-test](https://github.com/zeroziba9-hash/message-test) — 메시지 처리/검증 로직을 실험한 테스트 프로젝트
 - [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot) — 명령 처리와 응답 흐름을 구현한 Discord 봇 프로젝트
