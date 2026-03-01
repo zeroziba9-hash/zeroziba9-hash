@@ -24,11 +24,14 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
 ## 🚀 Current Focus
 - Spring Boot 기반 REST API 고도화
+- AWS 기초부터 실전 배포까지 학습 (EC2, S3, RDS)
+- MySQL DB 설계 및 운영 관리 최적화 (인덱스, 쿼리 튜닝, 백업)
 - 재사용 가능한 프로젝트 구조 만들기
 - 배포/운영 경험 쌓기 (CI/CD, monitoring)
 
