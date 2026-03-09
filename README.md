@@ -29,9 +29,6 @@
 </p>
 
 ## 🚀 Projects
-- [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)  
-  Spring Boot 기반 백엔드 실습 프로젝트 (REST API, 계층 구조, 예외 처리 흐름 정리)
-
 - [Eclipse-PhoneBook](https://github.com/zeroziba9-hash/Eclipse-PhoneBook)  
   Java 콘솔 + Swing GUI 전화번호부 프로젝트 (입력 검증, 자동 포맷팅, 저장/복구)
 
@@ -40,6 +37,9 @@
 
 - [discord-dice-bot](https://github.com/zeroziba9-hash/discord-dice-bot)  
   명령 파싱 및 응답 로직을 구현한 Discord 봇 프로젝트
+
+- [message-test](https://github.com/zeroziba9-hash/message-test)  
+  메시지 처리/검증 로직을 실험하고 정리한 테스트 프로젝트
 
 ## 📚 Currently Learning
 - Python 기초 문법/데이터 처리/자동화 스크립트
