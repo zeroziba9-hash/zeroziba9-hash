@@ -81,6 +81,34 @@
 
 ---
 
+## ✅ 프로젝트 성과 요약 (Metrics)
+
+- **reservation-service-api**
+  - 품질 게이트 자동화: `Black + Ruff + Alembic + Pytest` 파이프라인 구축
+  - 테스트 안정성: 최신 기준 **`14 passed`** 유지
+  - 신뢰성 기능: 예약 중복 방지(시간 충돌 409), `Idempotency-Key` 기반 중복 요청 안전 처리
+  - 운영 관점: 표준 에러 응답, 감사 로그, Request ID 추적, API 예시 문서화
+
+- **taxi-demand-forecast**
+  - 모델링 파이프라인: RandomForest vs XGBoost 비교 실험 자동화
+  - 검증 체계: `TimeSeriesSplit(5-fold)` 기반 교차검증 결과 리포트화
+  - 서빙 확장: Streamlit 대시보드 + FastAPI 예측 API를 한 레포에서 재현 가능하게 구성
+  - 재현성: 학습 산출물/리포트(`models/`, `reports/`) 정리 및 CI 연동
+
+- **koreanit-server-spring**
+  - 계층형 아키텍처 정립: Controller-Service-Repository 분리 + 도메인별 책임 분리
+  - 인증/인가 흐름 구현: 세션 기반 로그인, 보안 필터 체인 적용
+  - 운영 문서화: 환경변수, systemd 실행 예시, Runbook/구조 문서 보강
+
+---
+
+## 🎯 희망 직무 / 근무 형태
+
+- **희망 직무:** Java/Python 백엔드 개발자, ML/DL 엔지니어
+- **희망 형태:** 백엔드 중심 포지션에서 데이터/ML 기능을 함께 연결하는 역할 선호
+
+---
+
 ## 📈 현재 개선 중
 
 - API/DB 성능 측정 습관화 (쿼리 플랜, 인덱스 검증)
