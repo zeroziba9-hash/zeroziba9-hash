@@ -47,6 +47,11 @@
 ## 🚀 Featured Projects
 
 ### 1) [reservation-service-api](https://github.com/zeroziba9-hash/reservation-service-api)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-tested-0A9EDC?logo=pytest&logoColor=white)
+![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+
 **FastAPI 예약 시스템 (실무형 템플릿)**
 - JWT 인증 + RBAC(ADMIN/USER)
 - 예약 시간 겹침 방지 + PostgreSQL 제약(EXCLUDE)
@@ -54,12 +59,21 @@
 - 표준 에러 포맷, 감사 로그, 테스트/CI, 상세 README
 
 ### 2) [taxi-demand-forecast](https://github.com/zeroziba9-hash/taxi-demand-forecast)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Python CI](https://img.shields.io/github/actions/workflow/status/zeroziba9-hash/taxi-demand-forecast/ci.yml?label=Python%20CI&logo=github)
+
 **시계열 택시 수요 예측 + 대시보드 + API**
 - RandomForest vs XGBoost 성능 비교
 - TimeSeriesSplit 기반 교차검증
 - Streamlit 대시보드 + FastAPI 예측 API
 
 ### 3) [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)
+![Java](https://img.shields.io/badge/Java-17+-007396?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-DB-4479A1?logo=mysql&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-build-02303A?logo=gradle&logoColor=white)
+
 **Spring 커뮤니티 백엔드 API**
 - User/Post/Comment 도메인 기반 계층형 구조
 - 세션 기반 인증/인가 + 보안 필터 체인
