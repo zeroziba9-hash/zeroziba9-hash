@@ -1,4 +1,4 @@
-<h1 align="center">안녕하세요, Zeroziba(해쉬)입니다 👋</h1>
+<h1 align="center">안녕하세요, Zeroziba입니다 👋</h1>
 
 <p align="center">
   <b>Backend Developer in Progress</b><br/>
