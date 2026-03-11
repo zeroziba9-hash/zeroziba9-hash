@@ -1,8 +1,8 @@
-<h1 align="center">안녕하세요, Zeroziba입니다.</h1>
+<h1 align="center">안녕하세요, Zeroziba(해쉬)입니다 👋</h1>
 
 <p align="center">
   <b>Backend Developer in Progress</b><br/>
-  Java/Spring 기반 백엔드를 중심으로, 데이터 예측과 운영 자동화까지 확장하며 성장하고 있습니다.
+  Java/Spring 백엔드 중심으로 개발하고, Python/FastAPI/ML 프로젝트로 문제 해결 범위를 확장하고 있습니다.
 </p>
 
 <p align="center">
@@ -12,51 +12,69 @@
 
 ---
 
-## 🧭 Growth Snapshot (성장 방향)
-- **구현 중심 → 검증 중심**: 기능 구현 이후 테스트/CI로 안정성 확인
-- **로컬 실습 → 운영 관점**: Runbook, Metrics, API 문서화 습관화
-- **백엔드 기초 → 데이터/ML 확장**: 시계열 예측 프로젝트로 분석·서빙 경험 추가
+## 🎯 한 줄 소개
+
+- **신뢰 가능한 API**를 만드는 백엔드 개발자를 목표로 합니다.
+- 기능 구현에서 끝내지 않고, **테스트·예외처리·운영 관점**까지 챙기는 습관을 갖고 있습니다.
+
+---
+
+## 🧭 지금 집중하는 것
+
+- API 안정성: 입력 검증, 표준 에러 응답, 권한 제어
+- 데이터 일관성: 예약 충돌 방지, 멱등성(Idempotency) 처리
+- 운영 기본기: CI, 헬스체크, 로깅, 문서화
+- 데이터 확장: 시계열 예측/대시보드/추론 API
+
+---
 
 ## 🛠 Tech Stack
+
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSocket-STOMP-4A4A55?style=flat-square" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 </p>
 
-## 🚀 Major Projects
+---
 
-### 1) [message-test](https://github.com/zeroziba9-hash/message-test)
-**실시간 채팅 + 인증/권한 제어 백엔드**
-- WebSocket(STOMP) + REST 혼합 구조
-- 역할 기반 접근 제어(ADMIN/MODERATOR/MEMBER/GUEST)
-- 표준 API 응답/에러 스키마, CI/Runbook/Observability 구성
+## 🚀 Featured Projects
 
-### 2) [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)
-**커뮤니티 백엔드 서비스**
-- User/Post/Comment 도메인 중심 계층형 아키텍처
-- 세션 기반 인증/인가 + 권한별 기능 분리
-- ADR, runbook, CI 기반으로 운영 관점 보강
+### 1) [reservation-service-api](https://github.com/zeroziba9-hash/reservation-service-api)
+**FastAPI 예약 시스템 (실무형 템플릿)**
+- JWT 인증 + RBAC(ADMIN/USER)
+- 예약 시간 겹침 방지 + PostgreSQL 제약(EXCLUDE)
+- Idempotency-Key 기반 중복 요청 안전 처리
+- 표준 에러 포맷, 감사 로그, 테스트/CI, 상세 README
 
-### 3) [taxi-demand-forecast-](https://github.com/zeroziba9-hash/taxi-demand-forecast-)
-**NYC Taxi 시계열 수요 예측 + 서빙 프로젝트**
-- RandomForest vs XGBoost 모델 비교
-- TimeSeriesSplit 교차검증 + 실험 로그 관리
-- Streamlit 대시보드 + FastAPI 예측 API 제공
+### 2) [taxi-demand-forecast](https://github.com/zeroziba9-hash/taxi-demand-forecast)
+**시계열 택시 수요 예측 + 대시보드 + API**
+- RandomForest vs XGBoost 성능 비교
+- TimeSeriesSplit 기반 교차검증
+- Streamlit 대시보드 + FastAPI 예측 API
 
-## 📈 What I'm Improving Now
-- 안정적인 API 설계 (검증, 예외 처리, 로깅)
-- DB 성능 기초 (인덱스, 쿼리 튜닝, 실행 계획)
-- 데이터 기반 문제 해결 (시계열 예측, 모델 평가)
-- 배포/운영 기본기 (CI, health check, 모니터링)
+### 3) [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)
+**Spring 커뮤니티 백엔드 API**
+- User/Post/Comment 도메인 기반 계층형 구조
+- 세션 기반 인증/인가 + 보안 필터 체인
+- 공통 응답/예외 처리 + 운영 실행 가이드
+
+---
+
+## 📈 현재 개선 중
+
+- API/DB 성능 측정 습관화 (쿼리 플랜, 인덱스 검증)
+- Docker 기반 재현 가능한 개발 환경 정리
+- 배포 자동화 + 모니터링 지표(응답시간/에러율) 확장
+
+---
 
 ## 📫 Contact
+
 - Email: **zeroziba9@gmail.com**
