@@ -134,6 +134,12 @@
   - 인증/인가 흐름 구현: 세션 기반 로그인, 보안 필터 체인 적용
   - 운영 문서화: 환경변수, systemd 실행 예시, Runbook/구조 문서 보강
 
+- **eGov-minwon-basic**
+  - eGov 스타일 구조 반영: `EgovAbstractServiceImpl`, eGov `@Mapper`, `.do` 패턴 적용
+  - 핵심 기능 구현: 민원 등록/조회/상태변경 CRUD + 로그인 세션 인터셉터
+  - 안정성 강화: 전역 예외 처리(`@ControllerAdvice`) + 감사 로그(`AuditInterceptor`)
+  - 운영 전환 대비: H2/MySQL 프로파일 분리, SQL 스키마 및 실행 가이드 문서화
+
 ---
 
 ## 🎯 희망 직무 / 근무 형태
@@ -149,6 +155,7 @@
 - API/DB 성능 측정 습관화 (쿼리 플랜, 인덱스 검증)
 - Docker 기반 재현 가능한 개발 환경 정리
 - 배포 자동화 + 모니터링 지표(응답시간/에러율) 확장
+- C# / ASP.NET Core 기반 게임 백엔드 API 학습 및 미니 프로젝트 구현
 
 ---
 
