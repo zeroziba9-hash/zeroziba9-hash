@@ -33,6 +33,11 @@
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20MVC-5.x-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logo=mybatis&logoColor=white" />
+  <img src="https://img.shields.io/badge/eGovFrame-RTE-1E88E5?style=flat-square" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
+  <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=eclipseide&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
@@ -78,6 +83,17 @@
 - User/Post/Comment 도메인 기반 계층형 구조
 - 세션 기반 인증/인가 + 보안 필터 체인
 - 공통 응답/예외 처리 + 운영 실행 가이드
+
+### 4) [eGov-minwon-basic](https://github.com/zeroziba9-hash/eGov-minwon-basic)
+![Java](https://img.shields.io/badge/Java-8-007396?logo=openjdk&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring_MVC-5.x-6DB33F?logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-3.x-000000?logo=mybatis&logoColor=white)
+![eGovFrame](https://img.shields.io/badge/eGovFrame-RTE-1E88E5)
+
+**eGov 스타일 민원 처리 MVP**
+- 민원 등록/조회/상태변경 CRUD
+- 로그인 세션 인터셉터 + 전역 예외 처리
+- 감사 로그(Audit) + H2/MySQL 프로파일 분리
 
 ---
 
