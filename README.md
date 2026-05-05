@@ -1,8 +1,8 @@
 <h1 align="center">안녕하세요, Zeroziba입니다 👋</h1>
 
 <p align="center">
-  <b>Backend Developer in Progress</b><br/>
-  Java/Spring 백엔드 중심으로 개발하고, Python/FastAPI/ML 프로젝트로 문제 해결 범위를 확장하고 있습니다.
+  <b>Backend Developer</b><br/>
+  Java/Spring 백엔드를 중심으로, Python/FastAPI/ML까지 문제 해결 범위를 넓히고 있습니다.
 </p>
 
 <p align="center">
@@ -12,20 +12,15 @@
 
 ---
 
-## 🎯 한 줄 소개
+## About Me
 
-- **신뢰 가능한 API**를 만드는 백엔드 개발자를 목표로 합니다.
-- 기능 구현에서 끝내지 않고, **테스트·예외처리·운영 관점**까지 챙기는 습관을 갖고 있습니다.
+**신뢰 가능한 API**를 만드는 백엔드 개발자입니다.  
+기능 구현에서 끝내지 않고, 테스트·예외처리·운영 관점까지 챙깁니다.
 
----
-
-## 🧭 지금 집중하는 것
-
-- API 안정성: 입력 검증, 표준 에러 응답, 권한 제어
-- 데이터 일관성: 예약 충돌 방지, 멱등성(Idempotency) 처리
-- 운영 기본기: CI, 헬스체크, 로깅, 문서화
-- 데이터 확장: 시계열 예측/대시보드/추론 API
-- C# / ASP.NET Core 기반 게임 백엔드 API 학습 및 미니 프로젝트 구현
+현재 집중하는 것:
+- API 안정성 — 입력 검증, 표준 에러 응답, 권한 제어
+- 데이터 일관성 — 예약 충돌 방지, Idempotency 처리
+- 운영 기본기 — CI, 헬스체크, 로깅, 문서화
 
 ---
 
@@ -60,105 +55,56 @@
   <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
 </p>
 
-**IDE / Tools**  
-<p>
-  <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&logo=eclipseide&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-</p>
-
 ---
 
 ## 🚀 Featured Projects
 
-### 1) [reservation-service-api](https://github.com/zeroziba9-hash/reservation-service-api)
+### [reservation-service-api](https://github.com/zeroziba9-hash/reservation-service-api)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-tested-0A9EDC?logo=pytest&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
-**FastAPI 예약 시스템 (실무형 템플릿)**
-- JWT 인증 + RBAC(ADMIN/USER)
-- 예약 시간 겹침 방지 + PostgreSQL 제약(EXCLUDE)
-- Idempotency-Key 기반 중복 요청 안전 처리
-- 표준 에러 포맷, 감사 로그, 테스트/CI, 상세 README
+**FastAPI 예약 시스템 — 실무형 템플릿**  
+JWT 인증 + RBAC, 예약 충돌 방지(PostgreSQL EXCLUDE), Idempotency-Key 중복 요청 처리, 감사 로그, CI 파이프라인까지 갖춘 프로덕션 지향 구성
 
-### 2) [financial-timeseries-benchmark](https://github.com/zeroziba9-hash/financial-timeseries-benchmark)
+---
+
+### [financial-timeseries-benchmark](https://github.com/zeroziba9-hash/financial-timeseries-benchmark)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![TimeSeries](https://img.shields.io/badge/TimeSeries-Benchmark-7B61FF)
 ![ML](https://img.shields.io/badge/ML-RandomForest%20%7C%20XGBoost-0A9EDC)
 
-**금융 시계열 예측 모델 벤치마크**
-- RandomForest / XGBoost 모델 성능 비교
-- TimeSeriesSplit 기반 교차검증
-- 실험 결과 리포트 중심으로 재현 가능한 벤치마크 구성
+**금융 시계열 예측 벤치마크**  
+RandomForest / XGBoost 비교 실험, TimeSeriesSplit 교차검증, 재현 가능한 리포트 구성
 
-### 3) [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)
+---
+
+### [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring)
 ![Java](https://img.shields.io/badge/Java-17+-007396?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-Backend-6DB33F?logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-DB-4479A1?logo=mysql&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-build-02303A?logo=gradle&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
 
-**Spring 커뮤니티 백엔드 API**
-- User/Post/Comment 도메인 기반 계층형 구조
-- 세션 기반 인증/인가 + 보안 필터 체인
-- 공통 응답/예외 처리 + 운영 실행 가이드
+**Spring 커뮤니티 백엔드 API**  
+계층형 아키텍처, 세션 기반 인증/인가, 공통 응답/예외 처리
 
-### 4) [eGov-minwon-basic](https://github.com/zeroziba9-hash/eGov-minwon-basic)
+---
+
+### [eGov-minwon-basic](https://github.com/zeroziba9-hash/eGov-minwon-basic)
 ![Java](https://img.shields.io/badge/Java-8-007396?logo=openjdk&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring_MVC-5.x-6DB33F?logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-3.x-000000?logo=mybatis&logoColor=white)
 ![eGovFrame](https://img.shields.io/badge/eGovFrame-RTE-1E88E5)
 
-**eGov 스타일 민원 처리 MVP**
-- 민원 등록/조회/상태변경 CRUD
-- 로그인 세션 인터셉터 + 전역 예외 처리
-- 감사 로그(Audit) + H2/MySQL 프로파일 분리
+**eGov 스타일 민원 처리 MVP**  
+민원 CRUD, 로그인 세션 인터셉터, 감사 로그, H2/MySQL 프로파일 분리
 
 ---
 
-## ✅ 프로젝트 성과 요약 (Metrics)
+## 📈 Currently Improving
 
-- **reservation-service-api**
-  - 품질 게이트 자동화: `Black + Ruff + Alembic + Pytest` 파이프라인 구축
-  - 테스트 안정성: 최신 기준 **`14 passed`** 유지
-  - 신뢰성 기능: 예약 중복 방지(시간 충돌 409), `Idempotency-Key` 기반 중복 요청 안전 처리
-  - 운영 관점: 표준 에러 응답, 감사 로그, Request ID 추적, API 예시 문서화
-
-- **financial-timeseries-benchmark**
-  - 모델링 파이프라인: RandomForest vs XGBoost 비교 실험 자동화
-  - 검증 체계: `TimeSeriesSplit` 기반 교차검증 결과 리포트화
-  - 실험 중심 구성: 모델 서빙보다 벤치마크/평가 지표 재현성에 초점
-  - 재현성: 실험 산출물/리포트 구조화 및 반복 실행 가능한 형태로 정리
-
-- **koreanit-server-spring**
-  - 계층형 아키텍처 정립: Controller-Service-Repository 분리 + 도메인별 책임 분리
-  - 인증/인가 흐름 구현: 세션 기반 로그인, 보안 필터 체인 적용
-  - 운영 문서화: 환경변수, systemd 실행 예시, Runbook/구조 문서 보강
-
-- **eGov-minwon-basic**
-  - eGov 스타일 구조 반영: `EgovAbstractServiceImpl`, eGov `@Mapper`, `.do` 패턴 적용
-  - 핵심 기능 구현: 민원 등록/조회/상태변경 CRUD + 로그인 세션 인터셉터
-  - 안정성 강화: 전역 예외 처리(`@ControllerAdvice`) + 감사 로그(`AuditInterceptor`)
-  - 운영 전환 대비: H2/MySQL 프로파일 분리, SQL 스키마 및 실행 가이드 문서화
-
----
-
-## 🎯 희망 직무 / 근무 형태
-
-- **희망 직무:** 백엔드 개발자
-- **희망 형태:** 백엔드 중심 포지션에서 데이터/ML 기능을 함께 연결하는 역할 선호
-- **보완 역량:** 데이터/ML 기능 연계 가능, 프론트는 API 연동 수준 대응 가능, C# / ASP.NET Core 학습 중
-
----
-
-## 📈 현재 개선 중
-
-- API/DB 성능 측정 습관화 (쿼리 플랜, 인덱스 검증)
-- Docker 기반 재현 가능한 개발 환경 정리
-- 배포 자동화 + 모니터링 지표(응답시간/에러율) 확장
+- 쿼리 플랜 / 인덱스 검증 습관화
+- Docker 기반 재현 가능한 개발 환경
+- 배포 자동화 + 모니터링 지표 확장
+- C# / ASP.NET Core 게임 백엔드 학습
 
 ---
 
 ## 📫 Contact
 
-- Email: **zeroziba9@gmail.com**
+**zeroziba9@gmail.com**
