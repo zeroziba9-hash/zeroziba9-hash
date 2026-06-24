@@ -1,9 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=200&section=header&text=Zeroziba&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Developer&descAlignY=58&descSize=22" width="100%"/>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=70A5FD&center=true&vCenter=true&width=500&lines=Java+%2F+Spring+%7C+Python+%2F+FastAPI;신뢰+가능한+API를+만드는+백엔드+개발자;Full-Stack+%7C+AI+Integration+%7C+DevOps" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=70A5FD&center=true&vCenter=true&width=520&lines=Java+%2F+Spring+%7C+Python+%2F+FastAPI;신뢰+가능한+API를+만드는+백엔드+개발자;Full-Stack+%7C+AI+Integration+%7C+DevOps" alt="Typing SVG" />
 </p>
 
 <br/>
