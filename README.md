@@ -1,116 +1,138 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=200&section=header&text=Zeroziba&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20Developer&descAlignY=58&descSize=22" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,55:1e3a8a,100:38bdf8&height=210&section=header&text=Jongin%20Park&fontSize=55&fontColor=ffffff&fontAlignY=37&desc=Backend%20%7C%20AI%20Integration%20%7C%20Learning%20Design&descAlignY=58&descSize=18" width="100%" alt="Jongin Park profile banner" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=70A5FD&center=true&vCenter=true&width=520&lines=Java+%2F+Spring+%7C+Python+%2F+FastAPI;신뢰+가능한+API를+만드는+백엔드+개발자;Full-Stack+%7C+AI+Integration+%7C+DevOps" alt="Typing SVG" />
-</p>
+<div align="center">
+  <h3>Java/Spring 백엔드를 중심으로 AI와 서비스 배포까지 연결하는 개발자 박종인입니다.</h3>
+  <p>
+    기능을 구현하는 데서 멈추지 않고 인증·데이터·운영 환경까지 연결하며,<br />
+    프로젝트에서 익힌 내용을 다시 설명할 수 있는 형태로 정리합니다.
+  </p>
+  <p>
+    <a href="mailto:zeroziba9@gmail.com"><img src="https://img.shields.io/badge/Email-zeroziba9%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://github.com/zeroziba9-hash/java-foundations"><img src="https://img.shields.io/badge/Learning-Java%20Foundations-6DB33F?style=flat-square&logo=openjdk&logoColor=white" alt="Java Foundations" /></a>
+    <a href="https://github.com/zeroziba9-hash/python-foundations"><img src="https://img.shields.io/badge/Learning-Python%20Foundations-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Foundations" /></a>
+  </p>
+</div>
 
-<br/>
-
-## 🔥 Featured Projects
-
-<table>
+<table align="center">
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/zeroziba9-hash/PPE-Monitoring-Dashboard">🦺 PPE Monitoring Dashboard</a></h3>
-      <p>CCTV 기반 실시간 안전 보호구 착용 감지 시스템.<br/>YOLOv8로 건설 현장·물류 창고 작업자의 안전모·조끼 미착용을 자동 감지하고 WebSocket으로 즉시 알람 전송.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-      </p>
+    <td width="33%" align="center">
+      <strong>🏭 Physical AI</strong><br />
+      MVTec Pixel AUROC <strong>0.9782</strong><br />
+      TensorRT <strong>190.65 FPS</strong>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/wpghksdnd/hr-lms">🎓 HR-LMS</a></h3>
-      <p>기업 임직원 온라인 교육 통합 관리 시스템.<br/>Jenkins CI/CD + Kubernetes 자동 배포, AI 서버 연동, Slack 알림까지 갖춘 엔터프라이즈급 풀스택 LMS.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </p>
+    <td width="33%" align="center">
+      <strong>🛡️ Backend Reliability</strong><br />
+      JWT · RBAC · Idempotency<br />
+      Audit Log · Test · CI
+    </td>
+    <td width="33%" align="center">
+      <strong>📚 Teaching Materials</strong><br />
+      Java <strong>9개</strong> · Python <strong>9개</strong><br />
+      학습 문서와 단계별 실습
     </td>
   </tr>
 </table>
 
-<br/>
+---
 
-## 🛠 Tech Stack
+## 👋 제가 만드는 것
 
-**Languages**
+- **Backend first** — Java 17, Spring Boot 3, Spring Security를 중심으로 인증·인가, REST API, WebSocket, 데이터 접근 계층을 설계합니다.
+- **AI into products** — 이상탐지와 컴퓨터 비전 모델을 API, 대시보드, ROS2·엣지 런타임과 연결해 사용할 수 있는 기능으로 만듭니다.
+- **From build to delivery** — React/Next.js 화면부터 Docker, GitHub Actions, Terraform, AWS 배포까지 서비스의 전체 흐름을 경험했습니다.
+- **Explain what I build** — 동작 원리, 자주 발생하는 오류, 검증 방법을 문서와 실습으로 남겨 다른 사람이 다시 실행하고 이해할 수 있게 합니다.
 
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+## 📚 기초부터 설명하는 학습 자료
 
-**Frameworks**
+> 초보자에게는 세미콜론 하나와 들여쓰기 한 칸도 당연하지 않다고 생각합니다.<br />
+> 그래서 **개념 → 예제 → 실습 → 오류 대응 → 복습**의 흐름으로 자료를 구성합니다.
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white)
-![eGovFrame](https://img.shields.io/badge/eGovFrame-003876?style=flat-square&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/java-foundations">☕ Java Foundations</a></h3>
+      <p>Java 17을 처음 배우는 사람을 위한 한글 기초 자료입니다.</p>
+      <p><code>프로그램 구조</code> <code>세미콜론</code> <code>변수와 자료형</code> <code>형 변환</code> <code>제어문</code> <code>배열</code> <code>메서드</code></p>
+      <p>단계별 실습, 자주 발생하는 오류, 펼쳐 보는 복습 문제를 함께 제공합니다.</p>
+      <p><a href="https://github.com/zeroziba9-hash/java-foundations/tree/main/docs"><strong>학습 문서 보기 →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/python-foundations">🐍 Python Foundations</a></h3>
+      <p>Python을 처음 시작하는 사람을 위한 한글 기초 자료입니다.</p>
+      <p><code>문법과 들여쓰기</code> <code>변수와 자료형</code> <code>형 변환</code> <code>제어문</code> <code>컬렉션</code> <code>함수</code></p>
+      <p>출력 결과를 예상하고, 값을 바꾸고, 오류를 직접 수정하는 학습 흐름을 담았습니다.</p>
+      <p><a href="https://github.com/zeroziba9-hash/python-foundations/tree/main/docs"><strong>학습 문서 보기 →</strong></a></p>
+    </td>
+  </tr>
+</table>
 
-**Styles / Tools**
+## 🚀 대표 프로젝트
 
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/ai-qcell-physical-ai">🏭 AI-QCell</a></h3>
+      <p><strong>산업용 이상탐지와 자동 선별을 연결한 Physical AI 프로젝트</strong></p>
+      <p>정상 이미지 중심의 Deep PatchCore, 결함 히트맵, 생산 KPI, ROS2 선별 흐름과 ONNX/TensorRT 엣지 실행을 하나의 품질검사 셀로 구성했습니다.</p>
+      <p>MVTec bottle 기준 Pixel AUROC <strong>0.9782</strong>, 포트폴리오 측정 환경에서 TensorRT 처리량 <strong>190.65 FPS</strong>를 기록했습니다.</p>
+      <p><code>Python</code> <code>Deep PatchCore</code> <code>Streamlit</code> <code>ROS2</code> <code>ONNX</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/nimbus-gallery">☁️ Nimbus Gallery</a></h3>
+      <p><strong>AWS 위에 구축한 클라우드 네이티브 이미지 갤러리</strong></p>
+      <p>S3 직접 업로드, Cognito 인증, SQS·Lambda 비동기 처리, Rekognition 자동 태깅과 CloudFront 배포를 Terraform으로 재현 가능하게 구성했습니다.</p>
+      <p><code>React</code> <code>FastAPI</code> <code>AWS</code> <code>Terraform</code> <code>Rekognition</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/reservation-service-api">🗓️ Reservation Service API</a></h3>
+      <p><strong>예약 도메인의 충돌과 재시도를 고려한 실무형 API</strong></p>
+      <p>JWT·RBAC, PostgreSQL 중복 예약 방지, Redis 멱등성, 감사 로그, 마이그레이션과 테스트·CI까지 단순 CRUD 이후의 문제를 다룹니다.</p>
+      <p><code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code> <code>Alembic</code> <code>Pytest</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/zeroziba9-hash/koreanit-server-spring">💬 PARK COMMUNITY</a></h3>
+      <p><strong>인증·인가와 계층 분리를 적용한 커뮤니티 백엔드</strong></p>
+      <p>Controller–Service–Repository 구조, Spring Security 세션 인증, 작성자·관리자 권한, 공통 응답·예외 처리와 운영 가이드를 구현했습니다.</p>
+      <p><code>Java 17</code> <code>Spring Boot 3</code> <code>Spring Security</code> <code>JdbcTemplate</code> <code>MySQL</code></p>
+    </td>
+  </tr>
+</table>
 
-**Database / Infra**
+## 🧩 더 살펴볼 프로젝트
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-**DevOps / Testing**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-
-<br/>
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeroziba9-hash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeroziba9-hash&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=zeroziba9-hash&theme=tokyonight&hide_border=true&date_format=Y.m.d" />
-</p>
-
-<br/>
-
-## 📌 Other Projects
-
-| 프로젝트 | 설명 | 기술 |
+| 프로젝트 | 해결한 문제 | 주요 기술 |
 |---|---|---|
-| [reservation-service-api](https://github.com/zeroziba9-hash/reservation-service-api) | JWT·RBAC·충돌 방지·멱등성·감사 로그를 갖춘 예약 시스템 | FastAPI · Python · CI |
-| [financial-timeseries-benchmark](https://github.com/zeroziba9-hash/financial-timeseries-benchmark) | RandomForest vs XGBoost 금융 시계열 예측 벤치마크 | Python · ML |
-| [koreanit-server-spring](https://github.com/zeroziba9-hash/koreanit-server-spring) | 레이어드 아키텍처·세션 인증 기반 커뮤니티 백엔드 API | Spring Boot · Java |
-| [eGov-minwon-basic](https://github.com/zeroziba9-hash/eGov-minwon-basic) | eGovFrame 기반 민원 처리 시스템 | eGovFrame · Java |
+| [message-test](https://github.com/zeroziba9-hash/message-test) | 채널별 실시간 채팅, 역할 기반 권한과 운영 모니터링 | Java 17 · Spring Boot · STOMP · Actuator |
+| [Financial Time-Series Benchmark](https://github.com/zeroziba9-hash/financial-timeseries-benchmark) | 동일 조건에서 시계열 모델과 LightGBM의 예측 성능 비교 | LSTM · GRU · Transformer · TCN · LightGBM |
+| [Meter Anomaly Detection](https://github.com/zeroziba9-hash/-meter-anomaly-detection) | 전력 검침 데이터의 이상 패턴과 장기 무활동 구간 탐지 | Pandas · Isolation Forest · FastAPI · Pytest |
+| [eGov Minwon Basic](https://github.com/zeroziba9-hash/eGov-minwon-basic) | 전자정부 프레임워크 방식의 민원 처리 MVP | Spring MVC · MyBatis · JSP · H2/MySQL |
 
-<br/>
+## 🛠 핵심 기술
 
-## 📬 Contact
+| 영역 | 기술 |
+|---|---|
+| **Backend** | Java 17, Spring Boot 3, Spring Security, REST API, WebSocket/STOMP, JdbcTemplate, JPA, MyBatis, FastAPI |
+| **AI · Data** | Pandas, PyTorch, OpenCV, YOLOv8, PatchCore, Isolation Forest, XGBoost, LightGBM, LSTM/GRU/Transformer/TCN |
+| **Frontend** | React, Next.js, TypeScript, Vite, Tailwind CSS, Streamlit |
+| **Database** | MySQL, PostgreSQL, SQLite, H2, Redis, DynamoDB |
+| **Infra · Delivery** | Docker, Docker Compose, GitHub Actions, Jenkins, Terraform, AWS, ONNX Runtime, TensorRT, ROS2 |
 
-<p>
-  <a href="mailto:zeroziba9@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/zeroziba9-hash"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
-</p>
+## 🔎 개발과 설명에서 중요하게 생각하는 것
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:70a5fd,100:1a1b27&height=120&section=footer" width="100%"/>
+| 문제 정의 | 구현 | 검증 | 공유 |
+|---|---|---|---|
+| 기능보다 먼저 사용자의 흐름과 실패 상황을 정리합니다. | 작은 단위로 나누고 경계를 분명히 설계합니다. | 정상 입력뿐 아니라 경계값과 오류 상황을 확인합니다. | 실행 방법과 판단 근거를 다른 사람이 재현할 수 있게 남깁니다. |
+
+---
+
+<div align="center">
+  <p><strong>프로젝트 또는 교육 자료에 관한 이야기는 언제든 환영합니다.</strong></p>
+  <p>
+    <a href="mailto:zeroziba9@gmail.com"><img src="https://img.shields.io/badge/Gmail-zeroziba9%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by Gmail" /></a>
+    <a href="https://github.com/zeroziba9-hash"><img src="https://img.shields.io/badge/GitHub-zeroziba9--hash-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  </p>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,45:1e3a8a,100:111827&height=110&section=footer" width="100%" alt="Profile footer" />
